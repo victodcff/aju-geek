@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo | AJU.GEEK</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">
+            AJU.GEEK
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section class="catalogo-page">
+
+        <div class="section-title">
+            <h2>Catálogo</h2>
+        </div>
+<div class="pesquisa-container">
+    <input
+        type="text"
+        id="pesquisa"
+        placeholder="🔍 Procurar personagem ou anime..."
+    >
+</div>
+        <div id="produtos"></div>
+
+    </section>
+<div id="modal" class="modal">
+
+    <div class="modal-content">
+
+        <span id="fechar-modal">&times;</span>
+
+        <img id="modal-img" src="" alt="">
+
+        <h2 id="modal-nome"></h2>
+
+        <p id="modal-anime"></p>
+
+        <span id="modal-status"></span>
+
+        <a id="modal-whatsapp" target="_blank">
+            💬 Tenho Interesse
+        </a>
+
+    </div>
+
+</div>
+    <script src="app.js"></script>
+
+</body>
+
+</html>

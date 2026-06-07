@@ -1,0 +1,130 @@
+{
+  "produtos": [
+    {
+      "nome": "Mini Figures Naruto",
+      "anime": "Naruto",
+      "status": "Em Breve",
+      "imagem": "imagens/mininaruto.jpg"
+    },
+    {
+      "nome": "Hatsune Miku",
+      "anime": "Vocaloid",
+      "status": "Disponível",
+      "imagem": "imagens/hatsune.jpg"
+    },
+    {
+      "nome": "Hatsune Miku 2",
+      "anime": "Vocaloid",
+      "status": "Disponível",
+      "imagem": "imagens/hatsune2.jpg"
+    },
+    {
+      "nome": "Nezuko",
+      "anime": "Demon Slayer",
+      "status": "Esgotado",
+      "imagem": "imagens/nezuko.jpg"
+    },
+    {
+      "nome": "Denji",
+      "anime": "Chainsaw Man",
+      "status": "Em Breve",
+      "imagem": "imagens/denji.jpg"
+    },
+    {
+      "nome": "Fujiwara",
+      "anime": "Kaguya-sama",
+      "status": "Em Breve",
+      "imagem": "imagens/fujiwara.jpg"
+    },
+    {
+      "nome": "Hollow Knight",
+      "anime": "Hollow Knight",
+      "status": "Em Breve",
+      "imagem": "imagens/hollow.jpg"
+    },
+    {
+      "nome": "Ryu",
+      "anime": "Street Fighter",
+      "status": "Em Breve",
+      "imagem": "imagens/ryu.jpg"
+    },
+    {
+      "nome": "Sailor Moon",
+      "anime": "Sailor Moon",
+      "status": "Em Breve",
+      "imagem": "imagens/sailor.jpg"
+    },
+    {
+      "nome": "Nami",
+      "anime": "One Piece",
+      "status": "Em Breve",
+      "imagem": "imagens/nami.jpg"
+    },
+    {
+      "nome": "Luffy",
+      "anime": "One Piece",
+      "status": "Disponível",
+      "imagem": "imagens/luffy.jpg"
+    },
+    {
+      "nome": "Luffy 2",
+      "anime": "One Piece",
+      "status": "Disponível",
+      "imagem": "imagens/luffy2.jpg"
+    },
+    {
+      "nome": "Zoro",
+      "anime": "One Piece",
+      "status": "Disponível",
+      "imagem": "imagens/zoro.jpg"
+    },
+    {
+      "nome": "Goku",
+      "anime": "Dragon Ball",
+      "status": "Em Breve",
+      "imagem": "imagens/goku.jpg"
+    },
+    {
+      "nome": "Broly",
+      "anime": "Dragon Ball",
+      "status": "Disponível",
+      "imagem": "imagens/broly.jpg"
+    },
+    {
+      "nome": "Goku 2",
+      "anime": "Dragon Ball",
+      "status": "Disponível",
+      "imagem": "imagens/goku2.jpg"
+    },
+    {
+      "nome": "Mr. Kame",
+      "anime": "Dragon Ball",
+      "status": "Disponível",
+      "imagem": "imagens/mrkame.jpg"
+    },
+    {
+      "nome": "Trunks",
+      "anime": "Dragon Ball",
+      "status": "Disponível",
+      "imagem": "imagens/trunks.jpg"
+    },
+    {
+      "nome": "Mimikyu",
+      "anime": "Pokémon",
+      "status": "Disponível",
+      "imagem": "imagens/mimikyu.jpg"
+    },
+    {
+      "nome": "Rem",
+      "anime": "Death Note",
+      "status": "Disponível",
+      "imagem": "imagens/rem.jpg"
+    },
+    {
+      "nome": "Ryuk",
+      "anime": "Death Note",
+      "status": "Disponível",
+      "imagem": "imagens/ryuk.jpg"
+    }
+  ]
+}
