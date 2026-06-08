@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catálogo | AJU.GEEK</title>
-
+<link rel="icon" type="image/png" href="imagens/logo.png">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body>
@@ -14,54 +17,113 @@
     <header>
 
         <div class="logo">
-            AJU.GEEK
-        </div>
-
+    <img src="imagens/logo.png" alt="AJU.GEEK">
+</div>
+<button id="menu-mobile">
+    <i class="fa-solid fa-bars"></i>
+</button>
         <nav>
             <ul>
-                <li><a href="index.html">Início</a></li>
+
+                <li>
+                    <a href="index.html">
+                        <i class="fa-solid fa-house"></i>
+                        Início
+                    </a>
+                </li>
+
             </ul>
         </nav>
 
     </header>
-
+<div class="top-banner">
+    🚚 Enviamos para todo o Brasil • 💜 Atendimento via WhatsApp • ⭐ Figures colecionáveis
+</div>
     <section class="catalogo-page">
 
         <div class="section-title">
-            <h2>Catálogo</h2>
+            <h2>Nosso Catálogo</h2>
+            <p>Escolha seu próximo colecionável.</p>
         </div>
-<div class="pesquisa-container">
-    <input
-        type="text"
-        id="pesquisa"
-        placeholder="🔍 Procurar personagem ou anime..."
-    >
-</div>
+
+        <div class="pesquisa-container">
+
+            <input
+                type="text"
+                id="pesquisa"
+                placeholder="🔍 Procurar personagem ou anime..."
+            >
+
+        </div>
+
+        <div class="filtros">
+
+            <button class="filtro-btn ativo">
+                Todos
+            </button>
+
+            <button class="filtro-btn">
+                Disponíveis
+            </button>
+
+            <button class="filtro-btn">
+                Em Breve
+            </button>
+
+            <button class="filtro-btn">
+                Esgotados
+            </button>
+
+        </div>
+
+        <div id="contador-produtos">
+            Carregando produtos...
+        </div>
+
         <div id="produtos"></div>
 
     </section>
-<div id="modal" class="modal">
 
-    <div class="modal-content">
+    <div id="modal" class="modal">
 
-        <span id="fechar-modal">&times;</span>
+        <div class="modal-content">
 
-        <img id="modal-img" src="" alt="">
+            <span id="fechar-modal">&times;</span>
 
-        <h2 id="modal-nome"></h2>
+            <img id="modal-img" src="" alt="">
 
-        <p id="modal-anime"></p>
+            <h2 id="modal-nome"></h2>
 
-        <span id="modal-status"></span>
+            <p id="modal-anime"></p>
 
-        <a id="modal-whatsapp" target="_blank">
-            💬 Tenho Interesse
-        </a>
+            <span id="modal-status"></span>
+
+            <a id="modal-whatsapp" target="_blank">
+                💬 Tenho Interesse
+            </a>
+
+        </div>
 
     </div>
 
-</div>
-    <script src="app.js"></script>
+    <a
+        href="https://wa.me/5579996263283"
+        target="_blank"
+        class="whatsapp-flutuante"
+    >
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+<footer class="footer-catalogo">
+
+    <img src="imagens/logo.png" alt="AJU.GEEK">
+
+    <p>Figures e Colecionáveis</p>
+
+    <p>© 2026 AJU.GEEK</p>
+
+</footer>
+    <script src="catalogo.js"></script>
+<script src="app.js"></script>
 
 </body>
 

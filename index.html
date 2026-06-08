@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AJU.GEEK</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="imagens/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -13,17 +16,42 @@
     <header>
 
         <div class="logo">
-            AJU.GEEK
-        </div>
+    <img src="imagens/logo.png" alt="AJU.GEEK">
+</div>
+<button id="menu-mobile">
 
-        <nav>
-            <ul>
-                <li><a href="#hero">Início</a></li>
-                <li><a href="catalogo.html">Catálogo</a></li>
-                <li><a href="#localizacao">Localização</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
+    <i class="fa-solid fa-bars"></i>
+
+</button>
+      <nav>
+    <ul>
+
+        <li>
+            <a href="#hero">
+                <i class="fa-solid fa-house"></i> Início
+            </a>
+        </li>
+
+        <li>
+            <a href="catalogo.html">
+                <i class="fa-solid fa-store"></i> Catálogo
+            </a>
+        </li>
+
+        <li>
+            <a href="#localizacao">
+                <i class="fa-solid fa-location-dot"></i> Localização
+            </a>
+        </li>
+
+        <li>
+            <a href="#contato">
+                <i class="fa-solid fa-phone"></i> Contato
+            </a>
+        </li>
+
+    </ul>
+</nav>
 
     </header>
 
@@ -43,9 +71,121 @@
                     Ver Catálogo
                 </a>
 
+                <div class="hero-info">
+
+                    <div class="info-card">
+                        <h3>20+</h3>
+                        <p>Figures</p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>🚚</h3>
+                        <p>Todo o Brasil</p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>⭐</h3>
+                        <p>Colecionáveis</p>
+                    </div>
+
+                </div>
+
             </div>
 
         </section>
+
+       <section id="destaques">
+
+    <div class="section-title">
+        <h2>⭐ Mais Procurados</h2>
+        <p>Os colecionáveis favoritos da AJU.GEEK</p>
+    </div>
+
+    <div class="destaques-grid">
+
+        <div class="destaque-card">
+
+            <span class="badge-top">🔥 TOP</span>
+
+            <img src="imagens/luffy.jpg" alt="Luffy">
+
+            <h3>Luffy</h3>
+
+            <p>One Piece</p>
+
+            <span class="badge-disponivel">
+                Disponível
+            </span>
+
+            <a href="catalogo.html" class="btn-destaque">
+                Ver no Catálogo
+            </a>
+
+        </div>
+
+        <div class="destaque-card">
+
+            <span class="badge-top">🔥 TOP</span>
+
+            <img src="imagens/zoro.jpg" alt="Zoro">
+
+            <h3>Zoro</h3>
+
+            <p>One Piece</p>
+
+            <span class="badge-disponivel">
+                Disponível
+            </span>
+
+            <a href="catalogo.html" class="btn-destaque">
+                Ver no Catálogo
+            </a>
+
+        </div>
+
+        <div class="destaque-card">
+
+            <span class="badge-top">🔥 TOP</span>
+
+            <img src="imagens/broly.jpg" alt="Broly">
+
+            <h3>Broly</h3>
+
+            <p>Dragon Ball</p>
+
+            <span class="badge-disponivel">
+                Disponível
+            </span>
+
+            <a href="catalogo.html" class="btn-destaque">
+                Ver no Catálogo
+            </a>
+
+        </div>
+
+        <div class="destaque-card">
+
+            <span class="badge-top">🔥 TOP</span>
+
+            <img src="imagens/hatsune.jpg" alt="Hatsune Miku">
+
+            <h3>Hatsune Miku</h3>
+
+            <p>Vocaloid</p>
+
+            <span class="badge-disponivel">
+                Disponível
+            </span>
+
+            <a href="catalogo.html" class="btn-destaque">
+                Ver no Catálogo
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
 
         <section id="localizacao">
 
@@ -81,11 +221,13 @@
     </main>
 
     <footer>
+
+        <p>Figures e Colecionáveis</p>
+        <br>
         <p>© 2026 AJU.GEEK</p>
+
     </footer>
-
     <script src="app.js"></script>
-
 </body>
 
 </html>
