@@ -736,6 +736,15 @@ header {
 
 @media (max-width: 768px) {
 
+
+    .destaque-card img {
+    height: 180px;
+}
+
+.card-produto img {
+    height: 200px;
+    object-fit: cover;
+}
     header {
 
         flex-direction: row;
